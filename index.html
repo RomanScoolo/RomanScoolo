@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Škultéty - IT Leadership & Digital Transformation</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-bg: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--primary-color);
+        }
+
+        header {
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .service-card {
+            padding: 1.5rem;
+            border-radius: 8px;
+            background-color: var(--light-bg);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .expertise {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .expertise-item {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .contact {
+            text-align: center;
+            background-color: var(--light-bg);
+            padding: 2rem;
+        }
+
+        .contact a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        .certifications {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .cert-badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Roman Škultéty</h1>
+        <p>IT Leadership | Digital Transformation | Project Management</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Senior IT leader with over 20 years of experience in digital transformation, manufacturing IT, and global project management. Proven track record in leading cross-functional teams across multiple countries and delivering complex IT initiatives for Fortune 500 companies.</p>
+            
+            <div class="certifications">
+                <span class="cert-badge">PMP Certified</span>
+                <span class="cert-badge">PRINCE2 Certified</span>
+                <span class="cert-badge">ITIL v3 Foundation</span>
+                <span class="cert-badge">Lean Six Sigma Green Belt</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Services Offered</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>IT Strategy & Digital Transformation</h3>
+                    <ul>
+                        <li>Digital transformation roadmap development</li>
+                        <li>IT portfolio management and optimization</li>
+                        <li>Cloud migration strategy</li>
+                        <li>Manufacturing IT solutions</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Project & Program Management</h3>
+                    <ul>
+                        <li>Global IT project delivery</li>
+                        <li>PMO establishment and optimization</li>
+                        <li>Vendor management</li>
+                        <li>Change management</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Team Leadership & Development</h3>
+                    <ul>
+                        <li>Cross-cultural team building</li>
+                        <li>Leadership coaching</li>
+                        <li>Talent development programs</li>
+                        <li>Organization transformation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Areas of Expertise</h2>
+            <div class="expertise">
+                <span class="expertise-item">Manufacturing IT Systems</span>
+                <span class="expertise-item">Supply Chain Management</span>
+                <span class="expertise-item">Quality Management Systems</span>
+                <span class="expertise-item">Cloud Solutions</span>
+                <span class="expertise-item">SAP Implementation</span>
+                <span class="expertise-item">Document Management</span>
+                <span class="expertise-item">Process Optimization</span>
+                <span class="expertise-item">Global Team Leadership</span>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:roman2skultety@gmail.com">roman2skultety@gmail.com</a></p>
+            <p>Phone: +420-778-742-007</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/rskultety/" target="_blank">linkedin.com/in/rskultety</a></p>
+        </section>
+    </div>
+</body>
+</html>
